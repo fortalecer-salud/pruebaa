@@ -4,6 +4,10 @@ $(document).ready(function () {
         e.preventDefault();
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -70}, 800, 'linear');
     });
+    $('#btnContacto').on('click',function(e){
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -70}, 800, 'linear');
+    })
     //Ejecuta funciones con data dinamica
     Servicios();
 
